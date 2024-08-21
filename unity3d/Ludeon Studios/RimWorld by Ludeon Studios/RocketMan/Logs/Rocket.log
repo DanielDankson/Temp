@@ -1,0 +1,1000 @@
+[LOGGER STARTED]
+
+ROCKET_CORE:[NOTANERROR] patching Game:Void FinalizeInit() finished!
+
+ROCKET_CORE:[NOTANERROR] patching Game:Void DeinitAndRemoveMap(Verse.Map, Boolean) finished!
+
+ROCKET_CORE:[NOTANERROR] patching Game:Void UpdatePlay() finished!
+
+ROCKET_CORE:[NOTANERROR] patching Map:Void FinalizeInit() finished!
+
+ROCKET_CORE:[NOTANERROR] patching Map:Void ConstructComponents() finished!
+
+ROCKET_CORE:[NOTANERROR] patching TickManager:Void DoSingleTick() finished!
+
+ROCKETMAN: Found assembly with name of <color=red>XmlDiffPatch.View</color> and file name of <color=red>XmlDiffPatch.View.dll</color>
+
+ROCKETMAN: Loaded assembly XmlDiffPatch.View, Version=1.0.1493.40755, Culture=neutral, PublicKeyToken=null and symbols state is False
+
+ROCKETMAN: Assembly is currently [valid=True] and Named XmlDiffPatch.View, Version=1.0.1493.40755, Culture=neutral, PublicKeyToken=null
+
+ROCKETMAN: Found assembly with name of <color=red>XmlDiffPatch</color> and file name of <color=red>XmlDiffPatch.dll</color>
+
+ROCKETMAN: Loaded assembly XmlDiffPatch, Version=1.0.8.28, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a and symbols state is False
+
+ROCKETMAN: Assembly is currently [valid=True] and Named XmlDiffPatch, Version=1.0.8.28, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+
+ROCKETMAN: Found assembly with name of <color=red>Gagarin</color> and file name of <color=red>Gagarin.dll</color>
+
+ROCKETMAN: Loaded assembly Gagarin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null and symbols state is False
+
+ROCKETMAN: Assembly is currently [valid=True] and Named Gagarin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+
+ROCKETMAN: Found assembly with name of <color=red>Proton</color> and file name of <color=red>Proton.dll</color>
+
+ROCKETMAN: Loaded assembly Proton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null and symbols state is False
+
+ROCKETMAN: Assembly is currently [valid=True] and Named Proton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+ROCKETMAN: Found assembly with name of <color=red>Soyuz</color> and file name of <color=red>Soyuz.dll</color>
+
+ROCKETMAN: Loaded assembly Soyuz, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null and symbols state is False
+
+ROCKETMAN: Assembly is currently [valid=True] and Named Soyuz, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+<color=orange>ROCKETMAN</color>: Loaded <color=red>Gagarin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</color>
+
+<color=orange>ROCKETMAN</color>: Loaded <color=red>Proton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</color>
+
+<color=orange>ROCKETMAN</color>: Loaded <color=red>Soyuz, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</color>
+
+<color=orange>ROCKETMAN:</color> Version 0.6.3.2421
+
+R is 2.3=21, 8.9=241 4.5=69
+
+ROCKETMAN: Found action with attribute OnDefsLoaded, KeyBinder:Start
+
+ROCKETMAN: Found action with attribute OnDefsLoaded, RocketMod:UpdateExceptions
+
+ROCKETMAN: Found action with attribute OnDefsLoaded, Analyzer_H_AlertsReadoutUpdate_Patch:Patch
+
+ROCKETMAN: Found action with attribute OnDefsLoaded, ProtonPatcher:PatchAll
+
+ROCKETMAN: Found action with attribute OnDefsLoaded, SoyuzPatcher:PatchAll
+
+ROCKETMAN: Found action with attribute OnWorldLoaded, SoyuzSettingsUtility:SetRecommendedJobConfig
+
+ROCKETMAN: Found action with attribute OnTickRare, RocketMod:UpdateExceptions
+
+ROCKETMAN: Found action with attribute OnTickRare, WorldReachability_CanReach_Patch:FlushMessages
+
+ROCKETMAN: Found action with attribute OnTickLonger, GUIUtility:Cleanup
+
+ROCKETMAN: Found function with attribute YieldTabContent, TabContent_Gagarin:YieldTab
+
+ROCKETMAN: Found function with attribute YieldTabContent, TabContent_Alerts:YieldTab
+
+ROCKETMAN: Found function with attribute YieldTabContent, TabContent_DilationSettings:YieldTab
+
+ROCKETMAN: Found function with attribute YieldTabContent, TabContent_Grapher:YieldTab
+
+ROCKETMAN: Found function with attribute YieldTabContent, TabContent_WorldPawns:YieldTab
+
+ROCKETMAN: Found action with attribute OnScribe, StatSettingsUtility:OnScribe
+
+ROCKETMAN: Found action with attribute OnScribe, ProtonSettingsUtility:OnScribe
+
+ROCKETMAN: Found action with attribute OnScribe, SoyuzSettingsUtility:OnScribe
+
+ROCKETMAN: Found action with attribute OnSettingsScribedLoaded, StatSettingsUtility:OnSettingsScribedLoaded
+
+ROCKETMAN: Found action with attribute OnSettingsScribedLoaded, SoyuzSettingsUtility:OnSettingsScribedLoaded
+
+ROCKETMAN: Found action with attribute OnStaticConstructor, StartupHelper:StartUpFinished
+
+ROCKETMAN: Found action with attribute OnInitialization, LoadableXmlAsset_Constructor_Patch:Start
+
+ROCKETMAN: Found action with attribute OnInitialization, StartupHelper:StartUpStarted
+
+ROCKETMAN: Found action with attribute OnInitialization, AlertsReadout_Constructor_Patch:Patch
+
+ROCKETMAN: Found action with attribute OnInitialization, ProtonPatcher:Intialize
+
+ROCKETMAN: Found action with attribute OnInitialization, ContextualExtensions:Initialize
+
+ROCKETMAN: Found action with attribute OnInitialization, SoyuzPatcher:Intialize
+
+GAGARIN: <color=yello>Cache disabled from</color>
+Gagarin.StartupHelper:StartUpStarted():0
+System.Reflection.MonoMethod:InternalInvoke():0
+System.Reflection.MonoMethod:Invoke():0
+System.Reflection.MethodBase:Invoke():0
+RocketMan.FunctionsUtility+<>c__DisplayClass1_0`1[[RocketMan.Main+OnInitialization, Cosmodrome, Version=0.6.3.2421, Culture=neutral, PublicKeyToken=null]]:<GetActions>b__3():0
+RocketMan.RocketMod:.ctor():0
+System.Reflection.MonoCMethod:InternalInvoke():0
+System.Reflection.MonoCMethod:InternalInvoke():0
+System.Reflection.MonoCMethod:DoInvoke():0
+System.Reflection.MonoCMethod:Invoke():0
+System.RuntimeType:CreateInstanceImpl():0
+System.Activator:CreateInstance():0
+System.Activator:CreateInstance():0
+Verse.LoadedModManager:CreateModClasses():0
+Verse.LoadedModManager:LoadAllActiveMods():0
+Verse.PlayDataLoader:DoPlayLoad():0
+Verse.PlayDataLoader:LoadAllPlayData():0
+Verse.Root+<>c:<Start>b__6_1():0
+Verse.LongEventHandler:RunEventFromAnotherThread():0
+Verse.LongEventHandler+<>c:<UpdateCurrentAsynchronousEvent>b__28_0():0
+System.Threading.ThreadHelper:ThreadStart_Context():0
+System.Threading.ExecutionContext:RunInternal():0
+System.Threading.ExecutionContext:Run():0
+System.Threading.ExecutionContext:Run():0
+System.Threading.ThreadHelper:ThreadStart():0
+
+GAGARIN: <color=green>Loading cache settings!</color>
+
+Gagarin:[NOTANERROR] patching TKeySystem:Void Parse(System.Xml.XmlDocument) finished!
+
+Gagarin:[NOTANERROR] patching DirectXmlLoader:Verse.Def DefFromNode(System.Xml.XmlNode, Verse.LoadableXmlAsset) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:System.Collections.Generic.List`1[Verse.LoadableXmlAsset] LoadModXML(Boolean) finished!
+
+Gagarin:[NOTANERROR] patching TKeySystem:Void Parse(System.Xml.XmlDocument) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ClearCachedPatches() finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ApplyPatches(System.Xml.XmlDocument, System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset]) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ParseAndProcessXML(System.Xml.XmlDocument, System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset], Boolean) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:System.Xml.XmlDocument CombineIntoUnifiedXML(System.Collections.Generic.List`1[Verse.LoadableXmlAsset], System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset]) finished!
+
+Gagarin:[NOTANERROR] patching ModContentLoader`1:UnityEngine.Texture2D LoadTexture(RimWorld.IO.VirtualFile) finished!
+
+Gagarin:[NOTANERROR] patching ModContentPack:System.Collections.Generic.IEnumerable`1[Verse.LoadableXmlAsset] LoadDefs(Boolean) finished!
+
+Gagarin:[NOTANERROR] patching ModsConfig:Void Reset() finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:System.Collections.Generic.List`1[Verse.LoadableXmlAsset] LoadModXML(Boolean) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:System.Xml.XmlDocument CombineIntoUnifiedXML(System.Collections.Generic.List`1[Verse.LoadableXmlAsset], System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset]) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ApplyPatches(System.Xml.XmlDocument, System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset]) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ParseAndProcessXML(System.Xml.XmlDocument, System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset], Boolean) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ClearCachedPatches() finished!
+
+Gagarin:[NOTANERROR] patching XmlInheritance:Void Resolve() finished!
+
+GAGARIN:[DUPLICATE]: Started!
+
+GAGARIN:[DUPLICATE] Creating duplication reports took 477 MS
+
+GAGARIN:[DUPLICATE] Finished creating reports at <color=red>/home/daniel/.config/unity3d/Ludeon Studios/RimWorld by Ludeon Studios/RocketMan/Reports</color>
+
+ROCKETMAN: Found action with attribute OnStaticConstructor, StartupHelper:StartUpFinished
+
+ROCKETMAN: RocketMan settings are stored in <color=red>/home/daniel/.config/unity3d/Ludeon Studios/RimWorld by Ludeon Studios/RocketMan/Mod_2479389928_RocketMod.xml</color>
+
+ROCKETMAN: Defs loaded!
+
+ROCKETMAN: Patched KeyBinder!
+
+PROTON:[NOTANERROR] patching AlertsReadout:Void AlertsReadoutOnGUI() finished!
+
+PROTON:[NOTANERROR] patching AlertsReadout:Void AlertsReadoutUpdate() finished!
+
+PROTON:[NOTANERROR] patching Alert_MajorOrExtremeBreakRisk:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Hypothermia:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ColonistNeedsRescuing:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LifeThreateningHediff:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_FireInHomeArea:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ImmobileCaravan:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_DisallowedBuildingInsideMonument:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_DangerousActivity:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_UndercaveUnstable:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CultistPsychicRitual:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CubeWithdrawal:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Digesting:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MeatHunger:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_GhoulHypothermia:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_InsufficientContainmentStrength:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_IdeoBuildingMissing:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_IdeoBuildingDisrespected:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_DormanyWakeUpDelay:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_InfestationDelay:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CasketOpening:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_FuelNodeIgnition:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_HypothermicAnimals:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MinorBreakRisk:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_BestowerWaiting:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ReimplantationAvailable:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedDefenses:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_QuestExpiresSoon:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedDoctor:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedMiner:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedWarden:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowFood:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowBabyFood:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NoBabyFeeders:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AbandonedBaby:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NoBabyFoodCaravan:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowMedicine:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedWarmClothes:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedColonistBeds:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedBabyCribs:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedSlaveBeds:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedSlaveCribs:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ColonistLeftUnburied:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_HunterLacksRangedWeapon:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ColonistNeedsTend:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_EntityNeedsTend:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_StarvationColonists:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Exhaustion:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Heatstroke:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PasteDispenserNeedsHopper:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ActivatorCountdown:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_SlavesUnsuppressed:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_SlavesUnattended:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Biostarvation:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ToxicBuildup:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PollutedTerrain:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CreepJoinerTimeout:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_EmergingPitGate:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ColonistsIdle:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_TimedMakeFactionHostile:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CaravanIdle:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_RoyalNoThroneAssigned:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_UndignifiedThroneroom:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_UndignifiedBedroom:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_TitleRequiresBedroom:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_RoyalNoAcceptableFood:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ThroneroomInvalidConfiguration:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedMealSource:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedJoySources:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Boredom:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedBatteries:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedResearchProject:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AwaitingMedicalOperation:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_BrawlerHasRangedWeapon:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ShieldUserHasRangedWeapon:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_StarvationAnimals:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_BilliardsTableOnWall:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ChessTableNoChairs:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PokerTableNoChairs:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CannotBeUsedRoofed:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_HunterHasShieldAndRangedWeapon:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MonumentMarkerMissingBlueprints:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ShuttleLandingBeaconUnusable:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedMeditationSpot:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_UnusableMeditationFocus:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AnimalFilth:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AnimalPenNeeded:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AnimalPenNotEnclosed:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PredatorInPen:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AnimalRoaming:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PennedAnimalHungry:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_HitchedAnimalHungryNoFood:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_TimedRaidsArriving:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_SlaveRebellionLikely:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_RolesEmpty:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AnimaLinkingReady:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_DateRitualComing:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AgeReversalDemandNear:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_GauranlenTreeWithoutProductionMode:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ConnectedPawnNotAssignedToPlantCutting:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MinifiedTreeAboutToDie:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_SubjectHasNowOverseer:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_WarqueenHasLowResources:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowHemogen:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowDeathrest:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MechChargerFull:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedMechChargers:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedResearchBench:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MechMissingBodyPart:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ToxifierGeneratorStopped:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PsychicBondedSeparated:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MechDamaged:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_GenebankUnpowered:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_DeathrestComplete:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedAnomalyProject:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedHoldingPlatform:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_InhibitorBlocked:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MonolithAutoActivating:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Analyzable_GrayFlesh:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Analyzable_NeuralLump:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Analyzable_RevenantFlesh:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_TatteredApparel:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_UnhappyNudity:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PermitAvailable:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NoStorage:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ColonistHasShieldAndTwoHandedWeapon:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_FactionInfluenced:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AndroidsLowOnPower:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Freezing:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Overheating:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_HullIntegrityLow:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_HullIntegrityCritical:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ReactorLowFuel:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ReactorFuelConstant:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ReactorOnInternalBuffer:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_EffectCount:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Corruption_Low:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Corruption_High:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_StatsLearning:Void .ctor() finished!
+
+SOYUZ:[NOTANERROR] patching CameraDriver:Void Update() finished!
+
+SOYUZ:[NOTANERROR] patching Caravan_NeedsTracker:Void TrySatisfyJoyNeed(Verse.Pawn, RimWorld.Need_Joy) finished!
+
+SOYUZ:[NOTANERROR] patching Gen:Boolean IsHashIntervalTick(Verse.Thing, Int32) finished!
+
+SOYUZ:[NOTANERROR] patching Hediff:Single get_BleedRate() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_Pregnant:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching ImmunityRecord:Single ImmunityChangePerTick(Verse.Pawn, Boolean, Verse.Hediff) finished!
+
+SOYUZ:[NOTANERROR] patching JobDriver:Void DriverTick() finished!
+
+SOYUZ:[NOTANERROR] patching MentalState:Void MentalStateTick() finished!
+
+SOYUZ:[NOTANERROR] patching MentalState:Void MentalStateTick() finished!
+
+SOYUZ:[NOTANERROR] patching Need_Rest:Void TickResting(Single) finished!
+
+SOYUZ:[NOTANERROR] patching Pawn_AgeTracker:Void AgeTick() finished!
+
+SOYUZ:[NOTANERROR] patching Pawn_CallTracker:Void CallTrackerTick() finished!
+
+SOYUZ:[NOTANERROR] patching Pawn_HealthTracker:Void HealthTick() finished!
+
+SOYUZ:[NOTANERROR] patching Pawn_JobTracker:Void JobTrackerTick() finished!
+
+SOYUZ:[NOTANERROR] patching Pawn_MindState:Void MindStateTick() finished!
+
+SOYUZ:[NOTANERROR] patching Pawn_NeedsTracker:Void NeedsTrackerTick() finished!
+
+SOYUZ:[NOTANERROR] patching Pawn:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Pawn_PsychicEntropyTracker:Void PsychicEntropyTrackerTick() finished!
+
+SOYUZ:[NOTANERROR] patching Pawn_RecordsTracker:Void RecordsTick() finished!
+
+SOYUZ:[NOTANERROR] patching Pawn_SkillTracker:Void SkillsTick() finished!
+
+SOYUZ:[NOTANERROR] patching Sustainer:Void SustainerUpdate() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_Alcohol:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_BloodRage:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_CubeInterest:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_CubeWithdrawal:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_DeathRefusal:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_FrenzyField:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_Injury:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_Labor:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_LaborPushing:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_Level:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_LightExposure:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_DarknessExposure:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_MeatHunger:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_MissingPart:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_Pregnant:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_Shambler:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_SleepSuppression:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_HeartAttack:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_AcidBuildup:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_ApplyingPressure:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_ElectromagneticShock:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching Hediff_AndroidReactor:Void Tick() finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_CauseMentalState:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_ChanceToRemove:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_ChangeImplantLevel:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_ChangeNeed:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Chargeable:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_DamageBrain:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Disappears:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_DisappearsPausable:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_DisappearsPausable_LethalInjuries:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Discoverable:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Disorientation:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_GiveHediffLungRot:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_GiveHediffsInRange:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_GiveHemogen:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_GiveNeurocharge:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_GrowthMode:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_HealPermanentWounds:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Infecter:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Invisibility:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_KillAfterDays:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Link:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_MessageAboveSeverity:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_MessageAfterTicks:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_MessageStageIncreased:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Pollution:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_PregnantHuman:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_RemoveIfOtherHediff:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_ReplaceHediff:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_SelfHeal:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_SeverityFromEntropy:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_SeverityFromGas:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_SeverityFromGasDensityDirect:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_SeverityFromHemogen:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_SkillDecay:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_TendDuration:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_VerbGiver:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_RandomizeSeverityPhases:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_SeverityPerSecond:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_DestroyOrgan:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_PsychicHarmonizer:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_WhileHavingThoughts:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_HumanEggLayer:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Ability:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Animation:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_ExplodeOnFire:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_StageByHealth:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_GasProducer:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Polluter:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_StageByPsylink:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_StageByTemperature:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Waterstriding:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_AsexualReproduction:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_CauseIncident:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_ChangeWeather:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_CorpseDecayer:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_DieAfterPeriod:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Draftable:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Electrified:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_FilthProducer:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Floating:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_HeatPusher:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_HighlyFlammable:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_LightSustenance:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_NearbyEffecter:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_PassiveRegenerator:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Regeneration:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Spawner:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_StageBySunlight:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_ThoughtEffecter:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Mote:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Targeting:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Spreadable:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_DamageAura:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Shield:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Stabilize:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Venom:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_InfecterCE:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Prometheum:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_SeverityRealtime:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Effects:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Infections:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_ChanceToRemove:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_ChangeNeed:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Disappears:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Discoverable:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_HealPermanentWounds:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_Infecter:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_SelfHeal:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_TendDuration:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching HediffComp_KillAfterDays:Void CompPostTick(Single ByRef) finished!
+
+SOYUZ:[NOTANERROR] patching Pawn_PathFollower:Void PatherTick() finished!
+
+SOYUZ:[NOTANERROR] patching Pawn_PathFollower:Single CostToPayThisTick() finished!
+
+SOYUZ:[NOTANERROR] patching SkillRecord:Void Learn(Single, Boolean, Boolean) finished!
+
+SOYUZ:[NOTANERROR] patching WorldPawns:Verse.HediffDef DefPreventingMothball(Verse.Pawn) finished!
+
+SOYUZ:[NOTANERROR] patching WorldPawns:Void WorldPawnsTick() finished!
+
+ROCKETMAN: XMLParser started
+
+ROCKETRULES: IgnoreMeRule for OskarPotocki.VFE.Mechanoid
+
+ROCKETRULES: IgnoreMeRule for Alaestor.MiscRobots.PlusPlus
+
+ROCKETRULES: IgnoreMeRule for Haplo.Miscellaneous.Robots
+
+ROCKETRULES: IgnoreMeRule for ChJees.Androids
+
+ROCKETRULES: IgnoreMeRule for automatic.autocleaner
+
+ROCKETRULES: IgnoreMeRule for neronix17.mechadroids
+
+ROCKETRULES: IgnoreMeRule for neronix17.outerrim.galaxies
+
+ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory.drones
+
+ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory.legacy
+
+ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory
+
+[0.001367 seconds] ROCKETMAN: <color=red>IgnoreMe report</color>
+ROCKETRULES: IgnoreMe add def by name: RT_Bicycle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Grizzly
+ROCKETRULES: IgnoreMe add def by name: RT_BRDM2_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Polar
+ROCKETRULES: IgnoreMe add def by name: RT_BTR80_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Ostrich
+ROCKETRULES: IgnoreMe add def by name: RT_Churchill_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Emu
+ROCKETRULES: IgnoreMe add def by name: RT_Cromwell_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Cassowary
+ROCKETRULES: IgnoreMe add def by name: RT_Crusader_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Cougar
+ROCKETRULES: IgnoreMe add def by name: RT_Daimler_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Panther
+ROCKETRULES: IgnoreMe add def by name: RT_Valentine_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Lynx
+ROCKETRULES: IgnoreMe add def by name: RT_BTR40_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Cat
+ROCKETRULES: IgnoreMe add def by name: RT_BTR40A_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_YorkshireTerrier
+ROCKETRULES: IgnoreMe add def by name: RT_Type62_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_GuineaPig
+ROCKETRULES: IgnoreMe add def by name: RT_Type63_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_LabradorRetriever
+ROCKETRULES: IgnoreMe add def by name: RT_ZTS63_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Husky
+ROCKETRULES: IgnoreMe add def by name: RT_ZTZ59_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Monkey
+ROCKETRULES: IgnoreMe add def by name: Corpse_Chicken
+ROCKETRULES: IgnoreMe add def by name: Corpse_Duck
+ROCKETRULES: IgnoreMe add def by name: Corpse_Turkey
+ROCKETRULES: IgnoreMe add def by name: Corpse_Goose
+ROCKETRULES: IgnoreMe add def by name: Corpse_Cow
+ROCKETRULES: IgnoreMe add def by name: Corpse_Boomalope
+ROCKETRULES: IgnoreMe add def by name: Corpse_Muffalo
+ROCKETRULES: IgnoreMe add def by name: Corpse_Bison
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dromedary
+ROCKETRULES: IgnoreMe add def by name: Corpse_Goat
+ROCKETRULES: IgnoreMe add def by name: Corpse_Elk
+ROCKETRULES: IgnoreMe add def by name: Corpse_Yak
+ROCKETRULES: IgnoreMe add def by name: Corpse_Caribou
+ROCKETRULES: IgnoreMe add def by name: Corpse_Horse
+ROCKETRULES: IgnoreMe add def by name: Corpse_Donkey
+ROCKETRULES: IgnoreMe add def by name: Corpse_Elephant
+ROCKETRULES: IgnoreMe add def by name: Corpse_Rhinoceros
+ROCKETRULES: IgnoreMe add def by name: Corpse_Hare
+ROCKETRULES: IgnoreMe add def by name: Corpse_Snowhare
+ROCKETRULES: IgnoreMe add def by name: Corpse_Megascarab
+ROCKETRULES: IgnoreMe add def by name: Corpse_Spelopede
+ROCKETRULES: IgnoreMe add def by name: Corpse_Megaspider
+ROCKETRULES: IgnoreMe add def by name: Corpse_Thrumbo
+ROCKETRULES: IgnoreMe add def by name: Corpse_Cobra
+ROCKETRULES: IgnoreMe add def by name: Corpse_Tortoise
+ROCKETRULES: IgnoreMe add def by name: Corpse_Alphabeaver
+ROCKETRULES: IgnoreMe add def by name: Corpse_Pig
+ROCKETRULES: IgnoreMe add def by name: Corpse_WildBoar
+ROCKETRULES: IgnoreMe add def by name: Corpse_Ibex
+ROCKETRULES: IgnoreMe add def by name: Corpse_Deer
+ROCKETRULES: IgnoreMe add def by name: Corpse_Gazelle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Chinchilla
+ROCKETRULES: IgnoreMe add def by name: Corpse_Sheep
+ROCKETRULES: IgnoreMe add def by name: Corpse_Alpaca
+ROCKETRULES: IgnoreMe add def by name: Corpse_Megasloth
+ROCKETRULES: IgnoreMe add def by name: Corpse_Capybara
+ROCKETRULES: IgnoreMe add def by name: Corpse_Squirrel
+ROCKETRULES: IgnoreMe add def by name: Corpse_Rat
+ROCKETRULES: IgnoreMe add def by name: Corpse_Boomrat
+ROCKETRULES: IgnoreMe add def by name: Corpse_Raccoon
+ROCKETRULES: IgnoreMe add def by name: Corpse_Iguana
+ROCKETRULES: IgnoreMe add def by name: Corpse_Warg
+ROCKETRULES: IgnoreMe add def by name: Corpse_Wolf_Timber
+ROCKETRULES: IgnoreMe add def by name: Corpse_Wolf_Arctic
+ROCKETRULES: IgnoreMe add def by name: Corpse_Fox_Fennec
+ROCKETRULES: IgnoreMe add def by name: Corpse_Fox_Red
+ROCKETRULES: IgnoreMe add def by name: Corpse_Fox_Arctic
+ROCKETRULES: IgnoreMe add def by name: Corpse_Human
+ROCKETRULES: IgnoreMe add def by name: UnnaturalCorpse_Human
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_CentipedeBlaster
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_CentipedeGunner
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_CentipedeBurner
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Lancer
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Scyther
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Pikeman
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Termite
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Basic
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Woodmaker
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Berrymaker
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Medicinemaker
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Gaumaker
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Carrier
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Clawer
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Barkskin
+ROCKETRULES: IgnoreMe add def by name: Corpse_WasteRat
+ROCKETRULES: IgnoreMe add def by name: Corpse_Toxalope
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Tunneler
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Militor
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Lifter
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Constructoid
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Fabricor
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Agrihand
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Cleansweeper
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_WarUrchin
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Paramedic
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Legionary
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Tesseron
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Scorcher
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Apocriton
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Centurion
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Warqueen
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Diabolus
+ROCKETRULES: IgnoreMe add def by name: Corpse_Sightstealer
+ROCKETRULES: IgnoreMe add def by name: Corpse_Noctol
+ROCKETRULES: IgnoreMe add def by name: Corpse_Gorehulk
+ROCKETRULES: IgnoreMe add def by name: Corpse_Devourer
+ROCKETRULES: IgnoreMe add def by name: Corpse_Chimera
+ROCKETRULES: IgnoreMe add def by name: Corpse_Bulbfreak
+ROCKETRULES: IgnoreMe add def by name: Corpse_Toughspike
+ROCKETRULES: IgnoreMe add def by name: Corpse_Trispike
+ROCKETRULES: IgnoreMe add def by name: Corpse_Fingerspike
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dreadmeld
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_Bicycle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_BRDM2_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_BTR80_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_Churchill_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_Cromwell_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_Crusader_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_Daimler_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_Valentine_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_BTR40_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_BTR40A_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_Type62_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_Type63_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_ZTS63_Vehicle
+ROCKETRULES: IgnoreMe add def by name: Corpse_RT_ZTZ59_Vehicle
+
+ROCKETMAN:[NOTANERROR] patching DebugWindowsOpener:Void .ctor() finished!
+
+ROCKETMAN:[NOTANERROR] patching MainMenuDrawer:Void DoMainMenuControls(UnityEngine.Rect, Boolean) finished!
+
+ROCKETMAN:[NOTANERROR] patching PlayLog:Void ReduceToCapacity() finished!
+
+ROCKETMAN: Hijacking ([REFLECTED] RimWorld.StatWorker:GetValue, [DECLARING] RimWorld.StatWorker:GetValue, [ISSTATIC] False, [ISPUBLIC] False, [ISVIRTUAL] StatWorker, [ABSTRACT] False)
+
+ROCKETMAN:[NOTANERROR] patching StatWorker:Single GetValue(RimWorld.StatRequest, Boolean) finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn_TimetableTracker:RimWorld.TimeAssignmentDef GetAssignment(Int32) finished!
+
+ROCKETMAN:[NOTANERROR] patching TickManager:Void DoSingleTick() finished!
+
+ROCKETMAN: Prepare failed for TickManager:TickRateMultiplier
+
+ROCKETMAN: Prepare failed for TickManager:Notify_GeneratedPotentiallyHostileMap
+
+ROCKETMAN: Prepare failed for TickManager:TickManagerUpdate
+
+ROCKETMAN: Prepare failed for TimeSlower:SignalForceNormalSpeed
+
+ROCKETMAN: Prepare failed for TimeSlower:SignalForceNormalSpeedShort
+
+ROCKETMAN:[NOTANERROR] patching Text:UnityEngine.TextAnchor get_Anchor() finished!
+
+ROCKETMAN:[NOTANERROR] patching Text:Void set_Anchor(UnityEngine.TextAnchor) finished!
+
+ROCKETMAN:[NOTANERROR] patching Text:Boolean get_WordWrap() finished!
+
+ROCKETMAN:[NOTANERROR] patching Text:Void set_WordWrap(Boolean) finished!
+
+ROCKETMAN:[NOTANERROR] patching Text:Verse.GameFont get_Font() finished!
+
+ROCKETMAN:[NOTANERROR] patching Text:Void set_Font(Verse.GameFont) finished!
+
+ROCKETMAN:[NOTANERROR] patching Text:UnityEngine.GUIStyle get_CurFontStyle() finished!
+
+ROCKETMAN:[NOTANERROR] patching Text:UnityEngine.GUIStyle get_CurTextAreaReadOnlyStyle() finished!
+
+ROCKETMAN:[NOTANERROR] patching Text:UnityEngine.GUIStyle get_CurTextAreaStyle() finished!
+
+ROCKETMAN:[NOTANERROR] patching Text:UnityEngine.GUIStyle get_CurTextFieldStyle() finished!
+
+ROCKETMAN:[NOTANERROR] patching MapGenerator:Verse.Map GenerateMap(Verse.IntVec3, RimWorld.Planet.MapParent, Verse.MapGeneratorDef, System.Collections.Generic.IEnumerable`1[Verse.GenStepWithParams], System.Action`1[Verse.Map], Boolean) finished!
+
+ROCKETMAN:[NOTANERROR] patching WorldReachability:Boolean CanReach(Int32, Int32) finished!
+
+ROCKETMAN:[NOTANERROR] patching BeautyUtility:Void FillBeautyRelevantCells(Verse.IntVec3, Verse.Map) finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn_NeedsTracker:Void NeedsTrackerTick() finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn_ApparelTracker:Void Notify_ApparelAdded(RimWorld.Apparel) finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn_ApparelTracker:Void Notify_ApparelRemoved(RimWorld.Apparel) finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn_ApparelTracker:Void Notify_LostBodyPart() finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn_ApparelTracker:Void Wear(RimWorld.Apparel, Boolean, Boolean) finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn_ApparelTracker:Void Remove(RimWorld.Apparel) finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn_EquipmentTracker:Void Notify_EquipmentAdded(Verse.ThingWithComps) finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn_EquipmentTracker:Void Notify_EquipmentRemoved(Verse.ThingWithComps) finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn:Void Destroy(Verse.DestroyMode) finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn:Void Notify_Teleported(Boolean, Boolean) finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn:Void Notify_BulletImpactNearby(RimWorld.BulletImpactData) finished!
+
+ROCKETMAN:[NOTANERROR] patching Pawn_HealthTracker:Void Notify_UsedVerb(Verse.Verb, Verse.LocalTargetInfo) finished!
+
+ROCKETMAN:[NOTANERROR] patching HediffSet:Void DirtyCache() finished!
+
+GAGARIN: Lock removed!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+Created ticker bucket: BaseInterval=250 BucketInterval=125
+
+Bucket[0].Count = 1
+
+Bucket[1].Count = 1
+
+Created ticker bucket: BaseInterval=8000 BucketInterval=8000
+
+Bucket[0].Count = 1
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!

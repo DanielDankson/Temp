@@ -1,0 +1,5 @@
+[Added Associations]
+image/jpeg=gthumb-3.desktop;gthumb-2.desktop;gthumb.desktop;
+
+[Default Applications]
+image/jpeg=gthumb-3.desktop;

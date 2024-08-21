@@ -1,0 +1,122 @@
+// __        __          _                 
+// \ \      / /_ _ _   _| |__   __ _ _ __  
+//  \ \ /\ / / _` | | | | '_ \ / _` | '__| 
+//   \ V  V / (_| | |_| | |_) | (_| | |    
+//    \_/\_/ \__,_|\__, |_.__/ \__,_|_|    
+//                 |___/                   
+//  
+// by Daniel Jensson (2024)
+// ----------------------------------------------------- 
+
+//To include later : Icons, scratchpad, Some gui for Network and Soundsettings.
+//Also make a calander or include one from office.
+
+{
+  "name": "window1",
+  "layer": "top", 
+  "position": "top", 
+  "margin-left": 20,
+  "margin-right": 20,
+  "margin-top": 5,
+  "spacing": 5, 
+  "margin-bottom": -5,
+      
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+  
+  "modules-center": [        
+  ],
+  
+  "modules-right": [
+    "custom/seperator",
+    "pulseaudio",
+    "custom/seperator",
+    "network",  
+    "custom/seperator",
+    "clock", 
+    "custom/seperator",
+    "custom/exit"
+  ],     
+ 
+//  __  __           _       _            
+// |  \/  | ___   __| |_   _| | ___  ___  
+// | |\/| |/ _ \ / _` | | | | |/ _ \/ __| 
+// | |  | | (_) | (_| | |_| | |  __/\__ \ 
+// |_|  |_|\___/ \__,_|\__,_|_|\___||___/ 
+//                                        
+//  
+// by Daniel Jensson (2024)
+// ----------------------------------------------------- 
+
+  // Power Menu
+  "custom/exit": {
+    "format": "",  
+    "tooltip": false,
+    "on-click": "bash ~/.config/wlogout/start.sh"
+  }, 
+
+  // Seperator
+  "custom/seperator": {
+    "format": "┃",
+    "tooltip": false
+  },
+
+  // Workspaces
+  "hyprland/workspaces" : {
+    "on-click": "activate",
+    "active-only": false,
+    "all-outputs": true,
+    "tooltip": false,
+    "format": "", 
+    "persistent-workspaces": {
+      "*": 4
+    }       
+  },
+  
+  //Scratchpad
+  "hyprland/scratchpad": {
+    "format": "{icon} {count}",
+    "show-empty": false,
+    "format-icons": ["", ""],
+    "tooltip": false,
+    "tooltip-format": "{app}: {title}"
+  },
+  
+  //Clock
+  "clock": {
+    "interval": 60,
+    "format": "{:%H:%M   %d.%m.%Y}"
+  },
+
+ 
+  //Network
+  "network": {
+    "format-wifi": "{essid} ({signalStrength}%) ",
+    "format-ethernet": "{ipaddr}/{cidr} ",
+    "tooltip-format": "{ifname} via {gwaddr} ",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "Disconnected ⚠",
+    "format-alt": "{ifname}: {ipaddr}/{cidr}"
+  },
+
+  "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    }
+ }
